@@ -1,0 +1,49 @@
+IMG.portImage{
+    display: block;
+    margin-left: 840px;
+    margin-right: 150px;
+    height: 280px;
+    width: 200px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.aboutMe{
+    font-size: 100%;
+    font-weight:bolder;
+    margin-right: 70px;
+    margin-left: 70px;
+    margin-top: 50px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+#font3{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.skills{
+    /* margin-left: 50px; */
+    justify-content: center;
+}
+
+.languages{
+    
+    margin-top: 50px;
+    
+}
+
+.skillsLangTitle {
+    text-decoration: underline;
+}
+
+.skillsTools{
+text-decoration: underline;
+
+}
+
+.tools{
+margin-top: 50px;
+padding-left: 10px;
+}
+
