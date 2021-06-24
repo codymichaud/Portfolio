@@ -7,7 +7,7 @@ class AboutMe extends React.Component {
     render() {
         return (
             <div>
-                <div class="col-md-12">
+                <div className="col-md-12">
                     <img src={workPhoto} alt="portPhoto" class="portImage float-left" />
                 </div>
                 <br />
@@ -16,30 +16,31 @@ class AboutMe extends React.Component {
                 <br />
 
 
-                <article class="aboutMe font3">I am currently enrolled in the University of Washington Coding Boot Camp program,
-                and
-                will
-                be finished in June of 2021. Coding has always been an interest of mine, and I recently decided to go back to
-                school to pursue
-                web
-                development. I'm very excited to start this program, network with other web developers, and pave my way for the
-                future I
-                want in web development. I hope to provide
-                my
-                knowledge and expertise to be able to project their business forward and assist in any way I can. My attention
-                to detail
-                and willingness to put in my all at all times is something I strongly feel can benefit any company. Although I
-                am just
-                starting out in my development career, I believe that my work will show the drive and passion I have for
-                web development. Thank you for your time. If you have any questions,
-        head over to my <Link to="/contact"> Contact</Link> page.</article>
+                <article className="aboutMe font3">I am currently enrolled in the University of Washington Coding Boot Camp program,
+                    and
+                    will
+                    be finished in June of 2021. Coding has always been an interest of mine, and I recently decided to go back to
+                    school to pursue
+                    web
+                    development. I'm very excited to start this program, network with other web developers, and pave my way for the
+                    future I
+                    want in web development. I hope to provide
+                    my
+                    knowledge and expertise to be able to project their business forward and assist in any way I can. My attention
+                    to detail
+                    and willingness to put in my all at all times is something I strongly feel can benefit any company. Although I
+                    am just
+                    starting out in my development career, I believe that my work will show the drive and passion I have for
+                    web development. Thank you for your time. If you have any questions,
+                    head over to my <Link to="/contact"> Contact</Link> page.</article>
 
-                <div class="skills col-md-12 mx-auto text-center container-fluid row">
+                <div className="skills mx-auto row">
 
-                    <div class="languages col-md-2">
+                    <div className="languages col-md-2 row text-center">
 
-                        <h2 class="skillsLangTitle">Languages</h2>
-                        <ul>
+
+                        <ul className='row text-center col-md-2 mx-auto'>
+                            <h2 className="skillsLangTitle">Languages</h2>
                             <p>HTML5</p>
                             <p>CSS3</p>
                             <p>JavaScript</p>
@@ -56,9 +57,10 @@ class AboutMe extends React.Component {
                             <p>React.Js</p>
                         </ul>
                     </div>
-                    <div class="tools col-md-2">
-                        <h2 class="skillsTools">Tools</h2>
-                        <ul>
+                    <div class="tools col-md-2 row text-center mx-auto">
+
+                        <ul className='col-md-2 row text-center mx-auto'>
+                            <h2 className="skillsTools">Tools</h2>
                             <p>MySQL</p>
                             <p>Insomnia</p>
                             <p>MongoDB</p>
@@ -77,7 +79,7 @@ class AboutMe extends React.Component {
 
 
                 </div>
-            </div>
+            </div >
         )
     }
 }

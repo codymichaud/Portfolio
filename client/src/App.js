@@ -1,14 +1,15 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+
 import NavBar from './components/NavBar';
 import AboutMe from './components/AboutMe';
 import Projects from './components/Projects';
-import Contact from './components/Contact';
+import ContactInfo from './components/Contact';
 
 export default function App() {
   return (
     <Router>
-      <div>
+      <div className='body'>
         <NavBar />
         <Switch>
           <Route path='/' exact>
@@ -18,7 +19,7 @@ export default function App() {
             <Projects />
           </Route>
           <Route path='/contact' exact>
-            <Contact />
+            <ContactInfo />
           </Route>
         </Switch>
       </div>

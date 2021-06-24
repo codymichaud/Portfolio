@@ -14,22 +14,22 @@ class NavBar extends React.Component {
 
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mr-auto">
-                            <li class="nav-item active">
-                                <Link to='/'>
-                                    <p id="font2" class="nav-link">Home</p>
-                                </Link>
-                            </li>
 
-                            <li class="nav-item">
-                                <Link to='/projects'>
-                                    <p id="font2" class="nav-link">Projects</p>
-                                </Link>
-                            </li>
-                            <li class="nav-item">
-                                <Link to='/contact'>
-                                    <p id="font2" class="nav-link">Contact Me!</p>
-                                </Link>
-                            </li>
+                            <Link to='/'>
+                                <p id="font2" class="nav-link">Home</p>
+                            </Link>
+
+
+
+                            <Link to='/projects'>
+                                <p id="font2" class="nav-link">Projects</p>
+                            </Link>
+
+
+                            <Link to='/contact'>
+                                <p id="font2" class="nav-link">Contact Me!</p>
+                            </Link>
+
                         </ul>
                     </div>
 
